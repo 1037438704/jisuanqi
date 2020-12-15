@@ -1,0 +1,109 @@
+<!--pages/demo10/demo10.wxml-->
+
+<view class="columView">
+
+	<view class="topInput">
+		{{sumValue}}
+	</view>
+
+	<view class="rowView">
+		<view class="topView" bindtap="acOnTap">AC</view>
+		<view class="topView">+/-</view>
+		<view class="topView">%</view>
+		<view
+		 class="rightView"
+		 bindtap="operationOnTap"
+		 data-operation="/"
+		>/
+		</view>
+	</view>
+	<view class="rowView">
+		<view
+		 class="item"
+		 bindtap="sumOnTap"
+		 data-operation="{{7}}"
+		>7
+		</view>
+		<view
+		 class="item"
+		 bindtap="sumOnTap"
+		 data-operation="{{8}}"
+		>8
+		</view>
+		<view
+		 class="item"
+		 bindtap="sumOnTap"
+		 data-operation="{{9}}"
+		>9
+		</view>
+		<view
+		 class="rightView"
+		 bindtap="operationOnTap"
+		 data-operation="*"
+		>*
+		</view>
+	</view>
+	<view class="rowView">
+		<view
+		 class="item"
+		 bindtap="sumOnTap"
+		 data-operation="{{4}}"
+		>4
+		</view>
+		<view
+		 class="item"
+		 bindtap="sumOnTap"
+		 data-operation="{{5}}"
+		>5
+		</view>
+		<view
+		 class="item"
+		 bindtap="sumOnTap"
+		 data-operation="{{6}}"
+		>6
+		</view>
+		<view
+		 class="rightView"
+		 bindtap="operationOnTap"
+		 data-operation="-"
+		>-
+		</view>
+	</view>
+	<view class="rowView">
+		<view
+		 class="item"
+		 bindtap="sumOnTap"
+		 data-operation="{{1}}"
+		>1
+		</view>
+		<view
+		 class="item"
+		 bindtap="sumOnTap"
+		 data-operation="{{2}}"
+		>2
+		</view>
+		<view
+		 class="item"
+		 bindtap="sumOnTap"
+		 data-operation="{{3}}"
+		>3
+		</view>
+		<view
+		 class="rightView"
+		 bindtap="operationOnTap"
+		 data-operation="+"
+		>+
+		</view>
+	</view>
+	<view class="rowView">
+		<view
+		 class="item2"
+		 bindtap="sumOnTap"
+		 data-operation="{{0}}"
+		>0
+		</view>
+		<view class="item">.</view>
+		<view class="rightView" bindtap="resultOnTap">＝</view>
+	</view>
+</view>
+

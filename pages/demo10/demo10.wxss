@@ -1,0 +1,70 @@
+/* pages/demo10/demo10.wxss */
+
+page{
+    background-color: #808080;
+}
+.topInput{
+    color: #ffffff;
+    width: 100%;
+    height: 200rpx;
+    text-align: end;
+    font-size: 50rpx;
+    line-height: 200rpx;
+    background-color: #696969;
+}
+.columnView{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.rowView{
+    width: 100%;
+    height: 200rpx;
+    flex-direction: row;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.item{
+    font-size: 50rpx;
+    width: 200rpx;
+    height: 200rpx;
+    color: #ffffff;
+    background: #808080;
+    border: 1px solid #696969;
+    text-align: center;
+    line-height: 200rpx;
+}
+.item2{
+    font-size: 50rpx;
+    width: 400rpx;
+    height: 200rpx;
+    color: #ffffff;
+    background: #808080;
+    border: 1px solid #696969;
+    text-align: center;
+    line-height: 200rpx;
+}
+
+.rightView{
+    font-size: 50rpx;
+    width: 200rpx;
+    height: 200rpx;
+    color: #ffffff;
+    background: orange;
+    border: 1px solid #808080;
+    text-align: center;
+    line-height: 200rpx;
+}
+
+.topView{
+    font-size: 50rpx;
+    width: 200rpx;
+    height: 200rpx;
+    color: #ffffff;
+    background: #696969;
+    border: 1px solid #808080;
+    text-align: center;
+    line-height: 200rpx;
+}

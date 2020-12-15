@@ -1,0 +1,8 @@
+/* 
+1引入的  代码 是通过 @import
+  2,路径只能写相对路径
+*/
+@import "../../styles/common.wxss";
+
+
+

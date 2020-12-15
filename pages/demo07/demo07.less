@@ -1,0 +1,19 @@
+// 1,定义less变量
+@color:yellow;
+text{
+    //使用变量
+    color: @color;
+}
+view{
+    .view1{
+        text{
+            color: red;
+        }
+    }
+
+}
+// 导入
+@import "../../styles/reset.less";
+view{
+    color: @themeColor;
+}

@@ -1,0 +1,18 @@
+<!--计算器
+  1,需要给input标签绑定input事件
+   绑定关键字 bindinput
+  3，把输入框的值 赋值到data当众
+   4,给按钮加入一个点击事件
+     1关键字bindtap
+     2 无法在小程序中的事件中 直接传参
+     3，通过自定义属性的方式来传递参数
+  -->
+<text>pages/demo04/demo04.wxml</text>
+<input type="text" bindinput="handleInput"/>
+<view>{{num}}</view>
+<button bindtap="handletap" data-operation = "{{1}}">+</button>
+<button bindtap="handletap" data-operation="{{-1}}" >-</button>
+
+
+
+

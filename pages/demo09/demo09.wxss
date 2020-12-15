@@ -1,0 +1,12 @@
+/* pages/demo09/demo09.wxss */
+
+
+
+swiper{
+    width:100%;
+    height: 38vw;
+}
+image{
+    width: 100%;
+}
+

@@ -1,0 +1,24 @@
+<!--
+    1,长按文字复制
+-->
+<text selectable  decode>啦啦啦啦啦&nbsp;123 &lt; &gt; &amp; &apos; &ensp; &emsp;
+
+</text>
+
+<!--
+    image 图片标签
+    1 src 指定哟啊加载的图片的路径
+        图片存在默认的宽度和高度 320 * 240  原图大小是 200 *200
+    2 mode 决定 图片内容 如何 和图片标签 宽高 做适配
+        1， scaleTOFill 默认值 不保持纵横比缩放图片，使图片的宽高完全拉伸至填满image元素
+        2， aspectFit 保持宽高逼 确保图片的长边显示出来  页面轮播图 常用
+        3， aspectFill 保持纵横比缩放图片，只保证图片的 短  边完全能显示出来。 少用
+
+-->
+
+
+    <image 
+    lazy-load = "false"
+        mode = "aspectFill"
+    src = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607936516179&di=164e86fe3c129cd361d0acbc90f5efda&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F430eb25ca84a728281c7885c028cfa33d88aaa0f2bd31-KtuQa4_fw658"/>
+

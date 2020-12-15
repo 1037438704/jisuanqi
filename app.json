@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/demo11/demo11",
+    "pages/demo10/demo10",
+    "pages/demo09/demo09",
+    "pages/demo08/demo08",
+    "pages/demo07/demo07",
+    "pages/demo06/demo06",
+    "pages/demo05/demo05",
+    "pages/demo04/demo04",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

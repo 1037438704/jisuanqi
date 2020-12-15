@@ -1,0 +1,20 @@
+<!--
+    1,轮播图外层容器 swiper
+    2,每一个轮播项 swiper-item
+    3,swiper
+-->
+
+<swiper autoplay interval = "1000" circular indicator-dots>
+    <swiper-item>
+        <image mode = "center" src = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607936516179&di=3c0818048a156288ee6604d5ced22a2c&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F9552f698bd60aa4c25bad463afd3d081d2415d6c3a934-IlLJQs_fw658"/>
+    </swiper-item>
+    <swiper-item>
+    <image mode = "center"  src ="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3300549965,3525162529&fm=26&gp=0.jpg"/>
+    </swiper-item>
+    <swiper-item >
+         <image mode = "center" src = "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1706088740,56084255&fm=11&gp=0.jpg"/>
+    </swiper-item>
+</swiper>
+  
+
+
